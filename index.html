@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="school.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- ヘッダーナビ1行目 -->
+            <div id='headerFirstRow'>
+                <div>
+                    <img src="picture/logo.png" alt="">
+                </div>
+                <div>
+                    <p class='headerFirstRowButton' id='headerFirstRowChild1'>資料請求</p>
+                    <p class='headerFirstRowButton' id='headerFirstRowChild2'>オープンキャンパス</p>
+                    <p class='headerFirstRowButton' id='headerFirstRowChild3'>各種講習会</p>
+                </div>
+            </div>
+            <!-- ヘッダーナビ2行目 -->
+            <ul id='headerSecondRow'>
+                <li>学校案内<p></p></li>
+                <li>学科紹介<p></p></li>
+                <li>各種イベント<p></p></li>
+                <li>オープンキャンパス<p></p></li>
+                <li>就職情報<p></p></li>
+                <li>入学案内<p></p></li>
+            </ul>
+        </nav>
+        <div id='headerTopPic'>
+            <!-- ヘッダーメニューにホバーした際に表示 -->
+            <ul class='headerSecondRowChild'>
+                <li>教育方針</li>
+                <li>職業実践専門課程</li>
+                <li>コロナ対策に関するお知らせ</li>
+                <li>アクセス・周辺情報</li>
+            </ul>
+            <ul class='headerSecondRowChild'>
+                <li>Webデザイン科</li>
+                <li>グラフィックデザイン科</li>
+                <li>プログラミング科</li>
+                <li>マーケティング科</li>
+            </ul>
+            <ul class='headerSecondRowChild'>
+                <li>年間イベント</li>
+                <li>オープンキャンパス</li>
+                <li>作品発表会</li>
+                <li>作品展示</li>
+            </ul>
+            <ul class='headerSecondRowChild'>
+                <li>オープンキャンパス</li>
+                <li>保護者説明会</li>
+                <li>個別進路相談</li>
+                <li>オンラインオープンキャンパス</li>
+            </ul>
+            <ul class='headerSecondRowChild'>
+                <li>就職サポート</li>
+                <li>プロデビューサポート</li>
+                <li>プロデビューサポート実績</li>
+                <li>資格取得・コンテスト実績</li>
+            </ul>
+            <ul class='headerSecondRowChild'>
+                <li>募集学科</li>
+                <li>出願・入試日程</li>
+                <li>入学試験制度</li>
+                <li>特待生制度</li>
+                <li>納入費用</li>
+                <li>学費サポート制度</li>
+            </ul>
+            
+            <img src="picture/top3.jpg" alt="">
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="picture/topInformation (1).jpg" alt=""></div>
+            <div class="swiper-slide"><img src="picture/topInformation (2).jpg" alt=""></div>
+            <div class="swiper-slide"><img src="picture/topInformation (3).jpg" alt=""></div>
+            <div class="swiper-slide"><img src="picture/topInformation (4).jpg" alt=""></div>
+            <div class="swiper-slide"><img src="picture/topInformation (5).jpg" alt=""></div>
+            <div class="swiper-slide"><img src="picture/topInformation (6).jpg" alt=""></div>
+            <div class="swiper-slide"><img src="picture/topInformation (7).jpg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+    </header>
+    <main>
+    <div id='main'>
+
+        <!-- コース紹介 -->
+        <div class="subTitleFlex">
+            <p class="subTitle">COURSE</p>
+            <p class='subTitle2'>学科紹介</p>
+            <p class="subTitle3">WCSで目指せる4つの分野</p>
+        </div>
+        <div id='corseIntroductionFlexColumn'>
+            <div class='corseIntroductionChild'>
+                <div>
+                    <img src="picture/corse (4).jpg" alt="">
+                    <p>
+                        <span>WEB<br><br>
+                        WEBデザイナーとして必要な知識を身に付け<br>
+                        ハイレベルなフロントエンジニアを目指す</span>
+                        <span>WEB<br><br>
+                        WEBデザイナーとして必要な知識を身に付け<br>
+                        ハイレベルなフロントエンジニアを目指す</span>
+                    </p>
+                    <div></div>
+                    <button class='more'>MORE</button>
+                    <div><span></span></div>
+                </div>
+                <div>
+                    <img src="picture/corse (3).jpg" alt="">
+                    <p>
+                        <span>programming<br><br>
+                        プログラマーとして必要な知識を身に付け<br>
+                        ハイレベルなバックエンドエンジニアを目指す
+                        </span>
+                        <span>programming<br><br>
+                        プログラマーとして必要な知識を身に付け<br>
+                        ハイレベルなバックエンドエンジニアを目指す
+                        </span>
+                    </p>
+                    <div></div>
+                    <button class='more'>MORE</button>
+                    <div><span></span></div>
+                </div>
+            </div>
+            <div class='corseIntroductionChild'>
+                <div>
+                    <img src="picture/corse (2).jpg" alt="">
+                    <p>
+                        <span>Illust<br><br>
+                        自分の表現したいものを自分の納得いくように描けるように、<br>
+                        技術を磨き描きたい絵を目一杯描いてどんどん発信することに<br>
+                        挑戦する
+                        </span>
+                        <span>Illust<br><br>
+                        自分の表現したいものを自分の納得いくように描けるように、<br>
+                        技術を磨き描きたい絵を目一杯描いてどんどん発信することに<br>
+                        挑戦する
+                        </span>
+                    </p>
+                    <div></div>
+                    <button class='more'>MORE</button>
+                    <div><span></span></div>
+                </div>
+                <div>
+                    <img src="picture/corse (1).jpg" alt="">
+                    <p>
+                        <span>Marketing<br><br>
+                        広告マーケティング・キャッチコピー・情報リテラシーを<br>
+                        学習し、市場のニーズを捉える能力を身に付ける事で、公<br>
+                        告デザイン業界でも活躍できる人材になれる。
+                        </span>
+                        <span>Marketing<br><br>
+                        広告マーケティング・キャッチコピー・情報リテラシーを<br>
+                        学習し、市場のニーズを捉える能力を身に付ける事で、公<br>
+                        告デザイン業界でも活躍できる人材になれる。
+                        </span>
+                    </p>
+                    <div></div>
+                    <button class='more'>MORE</button>
+                    <div><span></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ブログ -->
+        <div id='blog'>
+            <div id="subTitleFlexBlog">
+                <p class="subTitle">INFORMATION</p>
+                <p class='subTitle2'>お知らせ</p>
+            </div>
+            <div id='blogTitle'>
+                <p>
+                    オープンキャンパス
+                    <span></span>
+                    <span></span>
+                </p>
+                <p>
+                    ブログ
+                    <span></span>
+                    <span></span>
+                </p>
+                <p>
+                    その他
+                    <span></span>
+                    <span></span>
+                </p>
+            </div>
+            
+            <div id='blogInformationArea'>
+            
+                <!-- オープンキャンパス -->
+                <ul class='blogInformation'>
+                    <li>
+                        <img src="picture/open (1).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/05/01 【感染対策実施】WCSオープンキャンパス開催</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (10).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/03/01 【感染対策実施】WCSオープンキャンパス開催</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (11).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/02/21 オープンキャンパス中止のお知らせ</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (12).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/02/01 WCSオープンキャンパス開催</p>
+                    </li>
+                </ul>
+
+                <!-- ブログ -->
+                <ul class='blogInformation'>
+                    <li>
+                        <img src="picture/open (2).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/05/01 お知らせ</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (3).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/03/01 お知らせ</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (4).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/02/21 お知らせ</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (5).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/02/01 お知らせ</p>
+                    </li>
+                </ul>
+
+                <!-- その他 -->
+                <ul class='blogInformation'>
+                    <li>
+                        <img src="picture/open (6).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/05/01 その他お知らせ</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (7).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/03/01 その他お知らせ</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (8).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/02/21 その他お知らせ</p>
+                    </li>
+                    <li>
+                        <img src="picture/open (9).jpg" alt="">
+                        <p>　</p>
+                        <p>2021/02/01 その他お知らせ</p>
+                    </li>
+                </ul>
+
+                <!-- blogInformationAreaの幅用 opacity0 -->
+                <ul id='blogInformation1'>
+                    <li>
+                        <img src="picture/campus.jpg" alt="">
+                        <p>2021/05/01 【感染対策実施】WCSオープンキャンパス開催</p>
+                    </li>
+                    <li>
+                        <img src="picture/campus.jpg" alt="">
+                        <p>2021/03/01 【感染対策実施】WCSオープンキャンパス開催</p>
+                    </li>
+                    <li>
+                        <img src="picture/campus.jpg" alt="">
+                        <p>2021/02/21 オープンキャンパス中止のお知らせ</p>
+                    </li>
+                    <li>
+                        <img src="picture/campus.jpg" alt="">
+                        <p>2021/02/01 WCSオープンキャンパス開催</p>
+                    </li>
+                </ul>
+                <!--  -->
+            </div>
+        </div>
+
+        <!-- 実績 -->
+        <div id='achievement'>
+            <div id="subTitleFlexAchievement">
+                <p class="subTitle">ACHIVEMENT</p>
+                <p class='subTitle2'>実績</p>
+                <p class="subTitle3">夢を叶える！</p>
+            </div>
+            <div id='achievementFlex'>
+                <p id='achievementTitle'>WCSの教育実績</p>
+                <p id='achievementText'>
+                    WCSは、プログラミングをはじめとしたエンジニアの育成を行い<br>
+                    クリエイターとしての知識と実務経験を積み、即戦力として活躍<br>
+                    出来る人材を育成します
+                </p>
+            </div>
+            
+            <div class='achievementList'>
+                <p class='achievementListFigures'>98%</p>
+                <p class='achievementListFont'>就職内定率</p>
+            </div>
+            <div class='achievementList'>
+                <p class='achievementListFont'>卒業者数</p>
+                <p class='achievementListFigures'>延べ5800人</p>
+            </div>
+            <div class='achievementList'>
+                <p class='achievementListFigures'>１位</p>
+                <p class='achievementListFont'>企業満足度</p>
+            </div>
+        </div>
+
+        <div id='strengths'>
+            <div id="subTitleFlexStrengths">
+                <p class="subTitle">STRENGTHS</p>
+                <p class='subTitle2'>6つのポイント</p>
+            </div>
+            <p id='strengthsTitle'>WCSが選ばれる理由</p>
+            <ul>
+                <li>
+                    <span>業界仕様の<span>最先端設備</span></span>
+                    <img src="picture/human6.png" alt="">
+                </li>
+                <li>
+                    <span><span>プロへ導くカリキュラム</span></span>
+                    <img src="picture/human2.png" alt="">
+                </li>
+                <li>
+                    <span>企業とともに<span>現場の力を身に付ける</span></span>
+                    <img src="picture/human3.png" alt="">
+                </li>
+                <li>
+                    <span>資格取得・コンペ実績が<span>確かな自信に</span></span>
+                    <img src="picture/human4.png" alt="">
+                </li>
+                <li>
+                    <span><span>型にはまらない</span>作品・映像・舞台作り</span>
+                    <img src="picture/human5.png" alt="">
+                </li>
+                <li>
+                    <span><span>業界トップ・現役エンジニア</span>による指導</span>
+                    <img src="picture/human1.png" alt="">
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    </main>
+    <footer>
+        <div id='footer'>
+            <ul id='footerMenu'>
+                <li>
+                    <img src="picture/footer (1).png" alt="">
+                    <p>資料</p>
+                </li>
+                <li>
+                    <img src="picture/footer (2).png" alt="">
+                    <p>オープンキャンパス</p>
+                </li>
+                <li>
+                    <img src="picture/footer (3).png" alt="">
+                    <p>お問い合わせ</p>
+                </li>
+                <li>
+                    <img src="picture/footer (4).png" alt="">
+                    <p>アクセス</p>
+                </li>
+            </ul>
+
+            <div id='list'>
+                <ul class='listChild'>
+                    <li>大学・短期大学の学校情報</li>
+                    <li>大学・短期大学を探す</li>
+                    <li>大学・短期大学のオープンキャンパス情報</li>
+                    <li>大学・短期大学の入試情報</li>
+                    <li>大学の偏差値情報</li>
+                </ul>
+                
+                <ul class='listChild'>
+                    <li>専門学校の学校情報</li>
+                    <li>専門学校を探す</li>
+                    <li>専門学校のオープンキャンパス情報</li>
+                    <li>専門学校の出願情報</li>
+                </ul>
+                
+                <ul class='listChild'>
+                    <li>困った時は</li>
+                    <li>資料に関するお問合せ</li>
+                    <li>よくあるお問合せ</li>
+                </ul>
+                
+                <ul class='listChild'>
+                    <li>ご利用にあたって</li>
+                    <li>スタディサプリ進路とは？</li>
+                    <li>利用規約</li>
+                    <li>プライバシーポリシー</li>
+                    <li>パンフ・資料請求・願書とりよせ</li>
+                    <li>掲載校一覧</li>
+                </ul>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="school.js"></script>
+</body>
+</html>
